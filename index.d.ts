@@ -171,6 +171,7 @@ export interface ConnectionOptions extends mysql.ConnectionOptions {
   passwordSha1?: string;
   pool?: any;
   rowsAsArray?: boolean;
+  rawJson?: boolean;
   stream?: any;
   uri?: string;
   connectionLimit?: number;
